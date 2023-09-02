@@ -1,0 +1,27 @@
+
+## Document
+
+Official document [demo preview](https://uiwjs.github.io/react-markdown-editor/) ([🇨🇳中国镜像网站](http://uiw.gitee.io/react-markdown-editor/))
+
+
+## Basic Usage
+
+```jsx mdx:preview
+import React from 'react';
+import MarkdownEditor from '@uiw/react-markdown-editor';
+
+const mdStr = `# This is a H1  \n## This is a H2  \n###### This is a H6`;
+
+const Dome = () => {
+  return (
+    <MarkdownEditor
+      value={mdStr}
+      onChange={(value, viewUpdate) => {
+
+      }}
+    />
+  )
+};
+
+export default Dome;
+```
