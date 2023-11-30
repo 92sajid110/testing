@@ -2,7 +2,7 @@
    "statusCode":201,
    "status":"Successfull",
    "data":{
-      "lastToken":"Y2023-04-22",
+      "lastToken":"Y2023-11-30",
       "appVersion":"1.1.0"
    }
 }
